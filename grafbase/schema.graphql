@@ -1,6 +1,6 @@
 type User @model {
   username: String! @unique
-  avatar: URL @resolver("avatar")
+  avatar: URL @resolver(name: "avatar")
 }
 
 type TodoList @model {
