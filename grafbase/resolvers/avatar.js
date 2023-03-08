@@ -1,3 +1,3 @@
-export async function Resolver(_, { username }) {
+export default async function Resolver(_, { username }) {
   return await fetch(`https://github.com/${username}.png`)
 }
