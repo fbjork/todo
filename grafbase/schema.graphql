@@ -1,5 +1,5 @@
 type Query {
-  foo: String @resolver(name: "foo")
+  test: String @resolver(name: "foo")
 }
 
 type User @model {
