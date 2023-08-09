@@ -1,3 +1,7 @@
+type Query {
+  avatar: String @resolver(name: "avatar")
+}
+
 type User @model {
   username: String! @unique
   avatar: URL @resolver(name: "avatar")
