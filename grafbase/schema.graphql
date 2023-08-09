@@ -1,5 +1,5 @@
 type Query {
-  avatar: String @resolver(name: "avatar")
+  foo: String @resolver(name: "foo")
 }
 
 type User @model {
